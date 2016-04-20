@@ -66,6 +66,9 @@ public class Test {
             int selectedVariantNum = Integer.parseInt(String.valueOf(selectedVariant.charAt(0)));
             if (selectedVariantNum == tu.getRightAnswer()) {
                 answerCount++;
+                System.out.println("Верно!");
+            } else {
+                System.out.println("Не верно!");
             }
             System.out.println(separator);
         }
