@@ -27,11 +27,26 @@ public class Home {
         byte d = (byte) ((byte) (a + b )/( c));
         System.out.println(d);*/
 //task
-        int a = 11;
-        int b = a / 2;
-        int c = b / 2;
-        int d = c / 2 ;
-        System.out.println(d);
+        byte a = 11;
+
+        byte a1 = (byte) (a%2);
+        byte a2 = (byte) (5%2);
+        byte a3 = (byte) (2%2);
+        byte a4 = (byte) (1%2);
+        byte a5 = (byte) 0;
+        byte a6 = (byte) 0;
+        byte a7 = (byte) 0;
+        byte a8 = (byte) 0;
+
+        System.out.print(a8);
+        System.out.print(a7);
+        System.out.print(a6);
+        System.out.print(a5);
+        System.out.print(a4);
+        System.out.print(a3);
+       System.out.print(a2);
+        System.out.print(a1);
+
 
 
     }
