@@ -1,7 +1,7 @@
 /**
  * Created by User on 21.04.2016.
  */
-public class HomeWork01 {
+    public class HomeWork01 {
 
             public static void main(String[] args) {
 
