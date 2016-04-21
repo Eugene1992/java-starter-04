@@ -12,12 +12,15 @@ public class Task03 {
         int i = scan.nextInt();
         System.out.println("Enter the Number 2 (from 0...to 2147483647)");
         int j = scan.nextInt();
-        if(abs(i-a)< abs(j-a)){
-            System.out.println("Первое число ближе к 10");
+        if (i==j) {
+            System.out.println("Числа одинаково удалены");
         }
-        else{
-            System.out.println("Второе число ближе к 10");
-        }
+        else {
+            if (abs(i - a) < abs(j - a)) {
+                System.out.println("Первое число ближе к 10");
+            } else
+                System.out.println("Второе число ближе к 10");
 
+        }
+        }
     }
-}
