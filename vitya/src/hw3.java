@@ -51,35 +51,43 @@ public class hw3 {
                 System.out.println(a2);
         }
         //5
-        int b = 7;
-        int b1 = 20;
-        int b2 = 8;
-        int b3 = 1;
+        int b1 = 5;
+        int a4 = 4;
+        int c1 = 6;
+        int d1 = 2;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         //6
