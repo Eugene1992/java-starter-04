@@ -14,6 +14,7 @@ public class fifthT {
         b=in.nextDouble();
         c=in.nextDouble();
         D= b*b-4*a*c;
+//Рішаємо квадратне рівняння
         if (D>0){
             double x1, x2;
             x1 = (-b - Math.sqrt(D)) / (2 * a); x2 = (-b + Math.sqrt(D)) / (2 * a);
