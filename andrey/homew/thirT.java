@@ -1,6 +1,4 @@
-/**
- * Created by Андрей on 21.04.2016.
- */
+//НЕ ВИГРУЖАЭТЬСЯ
 public class thirT {
     public static void main(String[] args) {
         int a=23;
