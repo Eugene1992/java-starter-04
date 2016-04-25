@@ -29,8 +29,20 @@ public class task {
         System.out.println();
         for (int s = 2;  s<10000000; s = s*2) {
             System.out.print(" " + s + " ");
-            if (s==s) break;
-
-    }}}
-
+        }
+//5
+    /* class  Fib {
+         public static void main(String[] args) {
+             int n0 = 1, n1 = 1, n2;
+             System.out.print(n0 + " " + n1 + " ");
+             for (int i = 0; i < 18; i++) {
+                 n2 = n0 + n1;
+                 System.out.print(n2 + " ");
+                 n0 = n1;
+                 n1 = n2;
+             }
+             System.out.println();
+         }
+     }*/
+    }}
 
