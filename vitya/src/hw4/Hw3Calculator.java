@@ -17,7 +17,7 @@ public class Hw3Calculator {
         System.out.println("Выберите знак для арифметической операции: ");
         Scanner scan2 = new Scanner(System.in);
         String s = scan2.next();
-        switch (b){
+        switch (b) {
             case 0:
                 System.out.println("Это невозможно!");
         }
@@ -40,24 +40,17 @@ public class Hw3Calculator {
                 System.out.println(a + " / " + b + " = " + q);
                 break;
         }
-            switch (a){
-                case 0:
+        switch (a) {
+            case 0:
 
-                    System.out.println("Ошибка!На ноль не интересно");
-                    break;
-            }
-
-
-
-
-
-
-
-
-
+                System.out.println("Ошибка!На ноль не интересно");
+                break;
         }
 
 
     }
+
+
+}
 
 

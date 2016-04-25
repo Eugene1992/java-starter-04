@@ -14,17 +14,17 @@ public class Factorial {
         if (b < 0) {
             System.out.println("Введите положительное число!");
         }
-                if (b == 0) {
-                    System.out.println("Факториал нуля равен единице");
-                } else {
-                    for (int c = 1; c <= b; c++) {
-                        a = a * c;
-                    }
-                    System.out.println("Факториал числа " + b + " равен " + a);
-
-
-                }
+        if (b == 0) {
+            System.out.println("Факториал нуля равен единице");
+        } else {
+            for (int c = 1; c <= b; c++) {
+                a = a * c;
             }
+            System.out.println("Факториал числа " + b + " равен " + a);
 
 
+        }
     }
+
+
+}
