@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * Created by User on 21.04.2016.
  */
@@ -62,23 +64,23 @@
             System.out.println("i7="+i7+" i8="+i8);
 
             //bonus
-            int b9=19;
+            byte b9=19;
             System.out.println(b9);
             int b10,b11,b12,b13,b14,b15,b16,b17;
             b10=b9%2;
-            b9=b9/2;
+            b9=(byte) (b9/2);
             b11=b9%2;
-            b9=b9/2;
+            b9=(byte) (b9/2);
             b12=b9%2;
-            b9=b9/2;
+            b9=(byte) (b9/2);
             b13=b9%2;
-            b9=b9/2;
+            b9=(byte) (b9/2);
             b14=b9%2;
-            b9=b9/2;
+            b9=(byte) (b9/2);
             b15=b9%2;
-            b9=b9/2;
+            b9=(byte) (b9/2);
             b16=b9%2;
-            b9=b9/2;
+            b9=(byte) (b9/2);
             b17=b9%2;
 
             System.out.print(b17);
@@ -88,9 +90,21 @@
             System.out.print(b13);
             System.out.print(b12);
             System.out.print(b11);
-            System.out.print(b10);
+            System.out.println(b10);
 
+            //bonus2
 
-        }
+                    System.out.println("Введите десятиричное число");
+                    Scanner scan = new Scanner(System.in);
+                    String res = "";
+                    int i9 = scan.nextInt();
+                    int  i11 = 0;
+                    for (; i9 != 1; i9 = i9 / 2) {
+                            i11 = i9 % 2;
+                            res = i11+res;
+                    }
+                    res=1+res;
+                    System.out.println(res);
+            }
 
     }

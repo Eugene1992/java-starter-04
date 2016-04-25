@@ -1,11 +1,12 @@
 public class lesson2 {
+  //Ныби це була домашка 2
     public static void main(String[] args) {
-        byte a, a2 = 15, a3 = 3,a4;
-        short b = 5, b1 = 50, b2;
-        int c = 10, c1 = 120, c2;
+        byte  a2 = 15, a3 = 3;
+        short b = 5, b1 = 50 ;
+        int c = 10, c1 = 120;
         long d = 25, d1;
         d1 = (int)(d * c);
-        int c3 = c + (int) a2;
+        int c2 = c + (int) a2;
         int a6 = 40;
         long d5 = 12;
         a6 = (a6 - (int) d5) + 10;

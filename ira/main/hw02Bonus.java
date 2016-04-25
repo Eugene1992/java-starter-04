@@ -3,7 +3,7 @@ import static java.lang.System.*;
 /**
  * Created by notebook on 20.04.2016.
  */
-public class hw02Bonus {
+public class Hw02Bonus {
     public static void main(String[] args) {
         byte a = 53;
 

@@ -1,7 +1,7 @@
 /**
  * Created by notebook on 20.04.2016.
  */
-public class hw02 {
+public class Hw02 {
     public static void main(String[] args) {
         byte a;
         short b;
