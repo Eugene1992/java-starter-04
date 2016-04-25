@@ -10,7 +10,7 @@ public class secondT {
         double d = scan.nextDouble();
         System.out.println(" перше число"+" "+b);
         System.out.println(" перше число"+" "+ d);
-        if(((a== b)&&(a>b))&&((a==d)&&(a>b))){
+        if(((a== b)||(a>b))||((a==d)||(a>b))){
             System.out.println("Число"+" "+b+" "+"Найближче до а ");
         }
         else{
