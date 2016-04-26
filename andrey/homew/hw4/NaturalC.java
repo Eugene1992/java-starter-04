@@ -25,7 +25,7 @@ public class NaturalC {
                 System.out.println();
             }
             for(int d=1; d<=a;d++){
-                if((a%1)==0){
+                if((a%d)==0){
                     count1++;
                     System.out.print(d + " ");
                 }
