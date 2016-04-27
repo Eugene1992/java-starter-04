@@ -20,11 +20,11 @@ public class HomeWork05 {
         }
 
         // 2. Вывести все числа одномерного массива в обратном порядке
-        /*System.out.println();
+        System.out.println();
         System.out.println("Массив в обратном порядке");
-        for (int numberArray = 0; numberArray > lengthArray ; numberArray++) {
+        for (int numberArray = lengthArray - 1; numberArray >= 0 ; numberArray--) {
             System.out.print(array[numberArray]+" ");
-        }*/
+        }
 
         // 3. Вывести первую и вторую половину одномерного массива
         System.out.println();
@@ -35,6 +35,13 @@ public class HomeWork05 {
         System.out.println();
         System.out.println("Вторая половина массива");
         for (int numberArray = lengthArray / 2; numberArray < lengthArray ; numberArray++) {
+            System.out.print(array[numberArray] + " ");
+        }
+
+        // 4. Вывести первую и вторую половину одномерного массива в обратном порядке
+        System.out.println();
+        System.out.println("Первая половина массива в обратном порядке");
+        for (int numberArray = lengthArray / 2 - 1; numberArray >= 0; numberArray--) {
             System.out.print(array[numberArray] + " ");
         }
     }
