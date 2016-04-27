@@ -7,18 +7,19 @@ public class ClassWork06 {
         char[] array = new char[lengthArray];
         for (int numberArray = 0; numberArray < 26; numberArray++) {
             array[numberArray] = invertChar(97 + numberArray);
-            System.out.print(array[numberArray] + " ");
+           // System.out.print(array[numberArray] + " ");
         }
         for (int numberArray = 27; numberArray < 53; numberArray++) {
             array[numberArray] = invertChar(38 + numberArray);
-            System.out.print(array[numberArray] + " ");
+            //System.out.print(array[numberArray] + " ");
         }
         for (int numberArray = 54; numberArray < lengthArray; numberArray++) {
             array[numberArray] = invertChar(-6 + numberArray);
-            System.out.print(array[numberArray] + " ");
+          //  System.out.print(array[numberArray] + " ");
         }
         String str = "";
-        for (int str1 = 0; str1 < 8; str1++){
+        int str2 = inputN();
+        for (int str1 = 0; str1 < str2; str1++){
         str = str + array [randomN(lengthArray)];
         }
         System.out.println();
