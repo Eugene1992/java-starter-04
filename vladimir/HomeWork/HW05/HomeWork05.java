@@ -100,22 +100,22 @@ public class HomeWork05 {
         System.out.println();
         System.out.println("Одинаковые числа");
 
-        for (int element = 0; element < lengthArray; element++){
+        for (int element = 0; element < lengthArray; element++) {
             int number = 0;
             for (int numberArray = 0; numberArray < lengthArray; numberArray++) {
-                 if (array[element] == array[numberArray]) {
-                     number = number + 1;
-                 }
-            }
-            for (int oldEllement = 0; oldEllement < element; oldEllement++) {
-                if (array[element] == array[element - oldEllement]) {
-
-                }
-                if (number > 1) {
-                    System.out.println(array[element] + " - " + number + "шт.");
+                if (array[element] == array[numberArray]) {
+                    number = number + 1;
                 }
             }
-
+            if (number > 1) {
+                oldNumber:
+                for (int oldEllement = 1; oldEllement < element; oldEllement++) {
+                    if (array[element] == array[element - oldEllement]){
+                        break ;
+                    }
+                }
+                System.out.println(array[element] + " - " + number + "шт.");
+            }
         }
     }
 
