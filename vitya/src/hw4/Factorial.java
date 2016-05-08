@@ -21,10 +21,6 @@ public class Factorial {
                 a = a * c;
             }
             System.out.println("Факториал числа " + b + " равен " + a);
-
-
         }
     }
-
-
 }

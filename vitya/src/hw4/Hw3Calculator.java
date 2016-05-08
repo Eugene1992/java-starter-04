@@ -21,7 +21,6 @@ public class Hw3Calculator {
             case 0:
                 System.out.println("Это невозможно!");
         }
-
         switch (s) {
             case "+":
                 q = a + b;
@@ -42,15 +41,10 @@ public class Hw3Calculator {
         }
         switch (a) {
             case 0:
-
                 System.out.println("Ошибка!На ноль не интересно");
                 break;
         }
-
-
     }
-
-
 }
 
 

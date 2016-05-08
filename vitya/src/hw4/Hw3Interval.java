@@ -24,7 +24,5 @@ public class Hw3Interval {
         } else if (a >= 101) {
             System.out.println("Вы ввели неправильное число");
         }
-
-
     }
 }
