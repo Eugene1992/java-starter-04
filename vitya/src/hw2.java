@@ -79,8 +79,6 @@ public class Hw2 {
         System.out.print(l5);
         System.out.print(l3);
         System.out.print(l1);
-
-
     }
 }
 

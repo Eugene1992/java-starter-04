@@ -13,7 +13,6 @@ public class Hw3 {
         } else {
             System.out.println("Вы ввели нечётное число");
         }
-
         //3
         Scanner scan1 = new Scanner(System.in);
         int i1 = scan1.nextInt();
@@ -112,21 +111,12 @@ public class Hw3 {
             x1 = (((b * (-1)) + (x3)) / (2 * q));
             x2 = (((b * (-1)) - (x3)) / (2 * q));
             System.out.println("Первый корень " + x1 + ",второй корень " + x2);
-
         }
         if (d < 0) {
             System.out.println("Уравнение не имеет вещественных корней!Потому что число " + d + " меньше нуля");
         }
-
-
     }
 }
-
-
-//6
-//float c1=20;
-// float c2=40;
-//  float c3=60;
 
 
 

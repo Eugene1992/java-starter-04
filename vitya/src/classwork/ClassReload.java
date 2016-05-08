@@ -16,26 +16,21 @@ public class ClassReload {
         // return fib(num -1)+fib(num -2);
         // }
         randomNumber();
-        int [] array=new int[]{3,4,5};
-
-        for (int i = 0; i <array.length; i++) {
-            System.out.println(array[i]+ " ");
+        int[] array = new int[]{3, 4, 5};
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i] + " ");
         }
-
     }
-
     static int randomNumber() {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter the number :");
         int a = scan.nextInt();
         int b = 6;
         for (int i = 0; i < a; i++) {
-
         }
         if (a == b) {
             System.out.println("Yes!All right!");
             return a;
-
         }
         if (b < a) {
             System.out.println("Wrong number");
@@ -46,11 +41,7 @@ public class ClassReload {
             return randomNumber();
         }
         return randomNumber();
-
-
     }
-
-
 }
 
 
