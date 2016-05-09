@@ -5,10 +5,10 @@ import java.util.Scanner;
 /**
  * Created by User on 22.04.2016.
  */
-public class Factorial {
+public class Hw4T9Factorial {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.println("Введите число для вычесление факториала : ");
+        System.out.print("Введите число для вычесление факториала : ");
         int b = scan.nextInt();
         int a = 1;
         if (b < 0) {

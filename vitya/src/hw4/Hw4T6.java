@@ -56,7 +56,7 @@ public class Hw4T6 {
                 System.out.println("Вы выбрали шестнадцатеричною систему!");
                 int c2;
                 String num2 = "";
-                while (a > 0) {
+                while (a != 0) {
                     c2 = a % 16;
                     num2 = c2 + num2;
                     a = a / 16;
