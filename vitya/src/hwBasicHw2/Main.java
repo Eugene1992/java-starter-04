@@ -9,10 +9,11 @@ public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         Rectangle rectangle = new Rectangle();
+
         System.out.print("Введите длину первой стороны : ");
-        int a = scan.nextInt();
+        double a = scan.nextDouble();
         System.out.print("Введите длину второй стороны : ");
-        int b = scan.nextInt();
+        double b = scan.nextDouble();
         rectangle.side1 = a;
         rectangle.side2 = b;
 
