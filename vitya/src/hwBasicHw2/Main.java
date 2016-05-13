@@ -13,7 +13,7 @@ public class Main {
         System.out.print("Введите длину первой стороны : ");
         double a = scan.nextDouble();
         System.out.print("Введите длину второй стороны : ");
-        double b = scan.nextDouble();
+        int b = scan.nextDouble();
         rectangle.side1 = a;
         rectangle.side2 = b;
 
