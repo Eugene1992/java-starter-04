@@ -5,7 +5,9 @@ package classwork;
  */
 public class Printer {
     public static void main(String[] args) {
-        Print pr = new Print();
-        pr.print("Maksya");
+      //  Print pr = new Print();
+    //    pr.print("ff");
     }
+
+
 }
